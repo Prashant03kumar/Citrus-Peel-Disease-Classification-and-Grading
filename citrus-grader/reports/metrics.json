@@ -1,0 +1,67 @@
+{
+  "model": "efficientnet_b0",
+  "preprocessing": "clahe",
+  "epochs": 12,
+  "trained_at": "2026-11-22T15:56:50+00:00",
+  "accuracy": 0.9852579852579852,
+  "macro_precision": 0.9852458224669178,
+  "macro_recall": 0.9853161377578129,
+  "macro_f1": 0.9852571842550109,
+  "per_class": {
+    "black-spot": {
+      "precision": 0.9901960784313726,
+      "recall": 0.9805825242718447,
+      "f1": 0.9853658536585366,
+      "support": 206
+    },
+    "citrus-canker": {
+      "precision": 0.9802955665024631,
+      "recall": 0.9900497512437811,
+      "f1": 0.9851485148514851,
+      "support": 201
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "black-spot",
+      "citrus-canker"
+    ],
+    "matrix": [
+      [
+        202,
+        4
+      ],
+      [
+        2,
+        199
+      ]
+    ]
+  },
+  "dataset": {
+    "train": 1726,
+    "val": 306,
+    "test": 407,
+    "per_class": {
+      "black-spot": {
+        "train": 875,
+        "val": 155,
+        "test": 206
+      },
+      "citrus-canker": {
+        "train": 851,
+        "val": 151,
+        "test": 201
+      }
+    }
+  },
+  "speed": {
+    "cpu_ms_per_image": 91.92147499183193,
+    "cpu_images_per_sec": 10.878850672150977,
+    "gpu_ms_per_image": null,
+    "gpu_images_per_sec": null
+  },
+  "ablation": {
+    "baseline_accuracy": 0.9852579852579852,
+    "clahe_accuracy": 0.9852579852579852
+  }
+}

@@ -2,5 +2,7 @@ citrus-grader/.venv/
 citrus-grader/data/
 citrus-grader/frontend/node_modules/
 citrus-grader/frontend/dist/
+citrus-grader/models/citrus_effb0_baseline.pth
+citrus-grader/models/citrus_effb0_clahe.pth
 __pycache__/
 *.py[cod]
