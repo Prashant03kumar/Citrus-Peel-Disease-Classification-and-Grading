@@ -1,0 +1,11 @@
+torch
+torchvision
+opencv-python
+numpy
+pillow
+scikit-learn
+matplotlib
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic

@@ -1,0 +1,6 @@
+citrus-grader/.venv/
+citrus-grader/data/
+citrus-grader/frontend/node_modules/
+citrus-grader/frontend/dist/
+__pycache__/
+*.py[cod]

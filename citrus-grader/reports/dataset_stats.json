@@ -1,0 +1,24 @@
+{
+  "classes": [
+    "black-spot",
+    "citrus-canker"
+  ],
+  "train": 1726,
+  "val": 306,
+  "test": 407,
+  "per_class": {
+    "black-spot": {
+      "train": 875,
+      "val": 155,
+      "test": 206
+    },
+    "citrus-canker": {
+      "train": 851,
+      "val": 151,
+      "test": 201
+    }
+  },
+  "imbalance_ratio": 1.028202,
+  "duplicates_train_test": 0,
+  "corrupt_removed": 0
+}
