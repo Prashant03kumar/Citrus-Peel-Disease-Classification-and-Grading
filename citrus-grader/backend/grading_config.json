@@ -1,0 +1,21 @@
+{
+  "confidence_threshold": 0.90,
+  "rules": {
+    "citrus-canker": {
+      "grade": "Reject",
+      "decision": "REJECT (quarantine disease)"
+    },
+    "black-spot": {
+      "grade": "B",
+      "decision": "GRADE B (processing / juice)"
+    },
+    "healthy": {
+      "grade": "A",
+      "decision": "GRADE A (fresh market)"
+    },
+    "scab": {
+      "grade": "B",
+      "decision": "GRADE B (processing / juice)"
+    }
+  }
+}
