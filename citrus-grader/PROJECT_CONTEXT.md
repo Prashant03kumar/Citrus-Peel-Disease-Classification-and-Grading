@@ -105,3 +105,7 @@ Built in Phase 4 and used by Phase 5:
 - Use Windows PowerShell commands and relative paths.
 - Use seed `42`.
 - Python code uses `pathlib`; do not hardcode absolute paths.
+
+# Repository ignore policy
+
+(i) Keep `data/`, `.venv/`, `node_modules/`, `dist/`, `frontend/.env`, and baseline/ablation model weights ignored. Track the final `models/citrus_effb0.pth`, reports, and `backend/static/samples/` images.

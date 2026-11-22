@@ -14,7 +14,7 @@ Phase B (finetune) epoch 6/10: train_loss=0.0541, train_acc=0.9739, val_acc=0.98
 Phase B (finetune) epoch 7/10: train_loss=0.0466, train_acc=0.9757, val_acc=0.9869, epoch_time=439.0s, estimated_time_per_epoch=439.0s
 Phase B (finetune) epoch 8/10: train_loss=0.0450, train_acc=0.9780, val_acc=0.9869, epoch_time=467.5s, estimated_time_per_epoch=467.5s
 Early stopping Phase B (finetune) after 4 epochs without validation improvement.
-Best validation accuracy=0.9869 at epoch 7; saved C:\Users\pkrit\OneDrive\Desktop\CitrusIntelligentProject\citrus-grader\models\citrus_effb0_baseline.pth
+Best validation accuracy=0.9869 at epoch 7; saved models/citrus_effb0_baseline.pth
 
 === Evaluate baseline on test ===
 
@@ -44,7 +44,7 @@ Phase B (finetune) epoch 7/10: train_loss=0.0499, train_acc=0.9751, val_acc=0.98
 Phase B (finetune) epoch 8/10: train_loss=0.0481, train_acc=0.9780, val_acc=0.9837, epoch_time=611.1s, estimated_time_per_epoch=611.1s
 Phase B (finetune) epoch 9/10: train_loss=0.0457, train_acc=0.9768, val_acc=0.9837, epoch_time=594.6s, estimated_time_per_epoch=594.6s
 Early stopping Phase B (finetune) after 4 epochs without validation improvement.
-Best validation accuracy=0.9837 at epoch 8; saved C:\Users\pkrit\OneDrive\Desktop\CitrusIntelligentProject\citrus-grader\models\citrus_effb0_clahe.pth
+Best validation accuracy=0.9837 at epoch 8; saved models/citrus_effb0_clahe.pth
 
 === Evaluate CLAHE model on test ===
 
@@ -62,4 +62,4 @@ Confusion matrix:
 === Benchmark CLAHE model (10 warm-ups, 100 timed inferences) ===
 CPU: 91.921 ms/image, 10.88 images/sec
 GPU: unavailable
-Wrote C:\Users\pkrit\OneDrive\Desktop\CitrusIntelligentProject\citrus-grader\reports\metrics.json
+Wrote reports/metrics.json
